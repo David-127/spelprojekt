@@ -13,9 +13,9 @@ height: 100vh;
 
 .bokstaver{
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
+margin-left: -500px;
 }
 
 .box{
