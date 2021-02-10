@@ -1,36 +1,36 @@
 body{
+display: flex;
+flex-direction: column;
 padding: 0%;
-margin: 0%;    
+margin:0%; 
 height: 100vh;
-
 }
 
 .nummer{
  display: flex;
- gap: 54px;
- margin-left: 110px;
+gap: 54px;
+margin-left:100px;
 }
 
 .bokstaver{
 display: flex;
-align-items: center;
 flex-direction: column;
-margin-left: -500px;
+justify-content: space-evenly;
 }
 
 .box{
-margin-top: -600px;
 display:flex;
 background-color:maroon;
 width: 800px ;
 height:800px ;
-justify-content: center;
 align-items: center;
+justify-content: center;
 }
 
 .innebox{
  display: flex;
  align-items: row;
+ justify-content: center;
 }
 
 .block1{
